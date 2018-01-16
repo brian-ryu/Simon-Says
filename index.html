@@ -1,0 +1,32 @@
+<div class = "container text-center">
+  <div class = "container">
+    <h1>Simon Says</h1>
+    <h2>Coded by Brian Ryu</h2>
+  </div>
+  <div id = "menu" class = "container">
+    <h3>How to play</h3>
+    <h4>Each round the board will play part of a sequence of colour flashes. Afterwards you are to play back the sequence of colour flashes in the exact order that they were played.<br>More and more of the sequence will be played each round.<br>If you mess up, the sequence will play again and you'll get another chance. But if you play in Strict Mode this opportunity is not available to you.</h4>
+    <button id = "start-button" class = "btn btn-primary">Start Simon Says</button>
+  </div>
+  
+  <div id = "game-menu" class = "container">
+    <h1 id = "round-counter">Round 1</h1>
+    <button id = "play-again-button" class = "btn btn-primary">Play Again</button>
+  </div>
+  
+  <div class = "container">
+    <h5>Strict Mode</h5>
+    <label class = "switch">
+      <input id = "strict-toggle" type = "checkbox">
+      <span class = "slider round"></span>
+    </label>
+  </div>
+  
+  <br>
+  <div class = "container">
+    <canvas id = "game" width = "1000px" height = "250px"></canvas>
+  </div>
+  <div class = "container">
+    <button id = "restart-button" class = "btn btn-primary">Restart</button>
+  </div>
+</div>
